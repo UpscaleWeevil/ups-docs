@@ -2,606 +2,614 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://hopweevil.github.io/original-upscale-sdk-unity/</loc>
-         <lastmod>2026-05-14</lastmod>
+         <lastmod>2026-05-15</lastmod>
     </url>
     <url>
          <loc>https://hopweevil.github.io/original-upscale-sdk-unity/api/</loc>
-         <lastmod>2026-05-14</lastmod>
+         <lastmod>2026-05-15</lastmod>
     </url>
     <url>
          <loc>https://hopweevil.github.io/original-upscale-sdk-unity/api/Core/Platform/</loc>
-         <lastmod>2026-05-14</lastmod>
+         <lastmod>2026-05-15</lastmod>
     </url>
     <url>
          <loc>https://hopweevil.github.io/original-upscale-sdk-unity/api/Core/PlatformProvider/</loc>
-         <lastmod>2026-05-14</lastmod>
+         <lastmod>2026-05-15</lastmod>
     </url>
     <url>
          <loc>https://hopweevil.github.io/original-upscale-sdk-unity/api/Core/RuntimeBootstrap/</loc>
-         <lastmod>2026-05-14</lastmod>
+         <lastmod>2026-05-15</lastmod>
     </url>
     <url>
          <loc>https://hopweevil.github.io/original-upscale-sdk-unity/api/Core/Configuration/ConfigurationProvider/</loc>
-         <lastmod>2026-05-14</lastmod>
+         <lastmod>2026-05-15</lastmod>
     </url>
     <url>
          <loc>https://hopweevil.github.io/original-upscale-sdk-unity/api/Core/Configuration/UpscaleSDKConfig/</loc>
-         <lastmod>2026-05-14</lastmod>
+         <lastmod>2026-05-15</lastmod>
     </url>
     <url>
          <loc>https://hopweevil.github.io/original-upscale-sdk-unity/api/Core/Input/Runtime/ActionsSet/InputActionsSet/</loc>
-         <lastmod>2026-05-14</lastmod>
+         <lastmod>2026-05-15</lastmod>
     </url>
     <url>
          <loc>https://hopweevil.github.io/original-upscale-sdk-unity/api/Core/Input/Runtime/ActionsSet/Builders/InputSetBuilder/</loc>
-         <lastmod>2026-05-14</lastmod>
+         <lastmod>2026-05-15</lastmod>
     </url>
     <url>
          <loc>https://hopweevil.github.io/original-upscale-sdk-unity/api/Core/Input/Runtime/ActionsSet/Default/BaseInputActionSet/</loc>
-         <lastmod>2026-05-14</lastmod>
+         <lastmod>2026-05-15</lastmod>
     </url>
     <url>
          <loc>https://hopweevil.github.io/original-upscale-sdk-unity/api/Core/Input/Runtime/ActionsSet/Extensions/ButtonGroupExtensions/</loc>
-         <lastmod>2026-05-14</lastmod>
+         <lastmod>2026-05-15</lastmod>
     </url>
     <url>
          <loc>https://hopweevil.github.io/original-upscale-sdk-unity/api/Core/Input/Runtime/ActionsSet/Groups/ButtonActionGroup/</loc>
-         <lastmod>2026-05-14</lastmod>
+         <lastmod>2026-05-15</lastmod>
     </url>
     <url>
          <loc>https://hopweevil.github.io/original-upscale-sdk-unity/api/Core/Input/Runtime/Binding/ActionBinding/</loc>
-         <lastmod>2026-05-14</lastmod>
+         <lastmod>2026-05-15</lastmod>
     </url>
     <url>
          <loc>https://hopweevil.github.io/original-upscale-sdk-unity/api/Core/Input/Runtime/Binding/BoolActionBinding/</loc>
-         <lastmod>2026-05-14</lastmod>
+         <lastmod>2026-05-15</lastmod>
     </url>
     <url>
          <loc>https://hopweevil.github.io/original-upscale-sdk-unity/api/Core/Input/Runtime/Binding/FloatActionBinding/</loc>
-         <lastmod>2026-05-14</lastmod>
+         <lastmod>2026-05-15</lastmod>
     </url>
     <url>
          <loc>https://hopweevil.github.io/original-upscale-sdk-unity/api/Core/Input/Runtime/Binding/Vector2ActionBinding/</loc>
-         <lastmod>2026-05-14</lastmod>
+         <lastmod>2026-05-15</lastmod>
     </url>
     <url>
          <loc>https://hopweevil.github.io/original-upscale-sdk-unity/api/Core/Input/Runtime/Binding/Builders/BindingBuilder/</loc>
-         <lastmod>2026-05-14</lastmod>
+         <lastmod>2026-05-15</lastmod>
     </url>
     <url>
          <loc>https://hopweevil.github.io/original-upscale-sdk-unity/api/Core/Input/Runtime/Binding/Extensions/BoolBindingExtensions/</loc>
-         <lastmod>2026-05-14</lastmod>
+         <lastmod>2026-05-15</lastmod>
     </url>
     <url>
          <loc>https://hopweevil.github.io/original-upscale-sdk-unity/api/Core/Input/Runtime/Binding/Extensions/FloatBindingExtensions/</loc>
-         <lastmod>2026-05-14</lastmod>
+         <lastmod>2026-05-15</lastmod>
     </url>
     <url>
          <loc>https://hopweevil.github.io/original-upscale-sdk-unity/api/Core/Input/Runtime/Binding/Extensions/Vector2BindingExtensions/</loc>
-         <lastmod>2026-05-14</lastmod>
+         <lastmod>2026-05-15</lastmod>
     </url>
     <url>
          <loc>https://hopweevil.github.io/original-upscale-sdk-unity/api/Core/Input/Runtime/Core/ActionResult/</loc>
-         <lastmod>2026-05-14</lastmod>
+         <lastmod>2026-05-15</lastmod>
     </url>
     <url>
          <loc>https://hopweevil.github.io/original-upscale-sdk-unity/api/Core/Input/Runtime/Core/BindingsRegistry/</loc>
-         <lastmod>2026-05-14</lastmod>
+         <lastmod>2026-05-15</lastmod>
     </url>
     <url>
          <loc>https://hopweevil.github.io/original-upscale-sdk-unity/api/Core/Input/Runtime/Core/InputAction/</loc>
-         <lastmod>2026-05-14</lastmod>
+         <lastmod>2026-05-15</lastmod>
     </url>
     <url>
          <loc>https://hopweevil.github.io/original-upscale-sdk-unity/api/Core/Input/Runtime/Core/UPSInput/</loc>
-         <lastmod>2026-05-14</lastmod>
+         <lastmod>2026-05-15</lastmod>
     </url>
     <url>
          <loc>https://hopweevil.github.io/original-upscale-sdk-unity/api/Core/Input/Runtime/Core/Enums/ButtonTrigger/</loc>
-         <lastmod>2026-05-14</lastmod>
+         <lastmod>2026-05-15</lastmod>
     </url>
     <url>
          <loc>https://hopweevil.github.io/original-upscale-sdk-unity/api/Core/Input/Runtime/Core/Enums/DeviceType/</loc>
-         <lastmod>2026-05-14</lastmod>
+         <lastmod>2026-05-15</lastmod>
     </url>
     <url>
          <loc>https://hopweevil.github.io/original-upscale-sdk-unity/api/Core/Input/Runtime/Core/Enums/Gamepad1DAxis/</loc>
-         <lastmod>2026-05-14</lastmod>
+         <lastmod>2026-05-15</lastmod>
     </url>
     <url>
          <loc>https://hopweevil.github.io/original-upscale-sdk-unity/api/Core/Input/Runtime/Core/Enums/Gamepad2DAxis/</loc>
-         <lastmod>2026-05-14</lastmod>
+         <lastmod>2026-05-15</lastmod>
     </url>
     <url>
          <loc>https://hopweevil.github.io/original-upscale-sdk-unity/api/Core/Input/Runtime/Core/Enums/GamepadAction/</loc>
-         <lastmod>2026-05-14</lastmod>
+         <lastmod>2026-05-15</lastmod>
     </url>
     <url>
          <loc>https://hopweevil.github.io/original-upscale-sdk-unity/api/Core/Input/Runtime/Core/Enums/GamepadButton/</loc>
-         <lastmod>2026-05-14</lastmod>
+         <lastmod>2026-05-15</lastmod>
     </url>
     <url>
          <loc>https://hopweevil.github.io/original-upscale-sdk-unity/api/Core/Input/Runtime/Core/Enums/GamepadType/</loc>
-         <lastmod>2026-05-14</lastmod>
+         <lastmod>2026-05-15</lastmod>
     </url>
     <url>
          <loc>https://hopweevil.github.io/original-upscale-sdk-unity/api/Core/Input/Runtime/Definitions/BoolActionDefinition/</loc>
-         <lastmod>2026-05-14</lastmod>
+         <lastmod>2026-05-15</lastmod>
     </url>
     <url>
          <loc>https://hopweevil.github.io/original-upscale-sdk-unity/api/Core/Input/Runtime/Definitions/FloatActionDefinition/</loc>
-         <lastmod>2026-05-14</lastmod>
+         <lastmod>2026-05-15</lastmod>
     </url>
     <url>
          <loc>https://hopweevil.github.io/original-upscale-sdk-unity/api/Core/Input/Runtime/Definitions/Vector2ActionDefinition/</loc>
-         <lastmod>2026-05-14</lastmod>
+         <lastmod>2026-05-15</lastmod>
     </url>
     <url>
          <loc>https://hopweevil.github.io/original-upscale-sdk-unity/api/Core/Input/Runtime/Glyphs/GamepadIconsSet/</loc>
-         <lastmod>2026-05-14</lastmod>
+         <lastmod>2026-05-15</lastmod>
     </url>
     <url>
          <loc>https://hopweevil.github.io/original-upscale-sdk-unity/api/Core/Input/Runtime/Glyphs/GlyphProvider/</loc>
-         <lastmod>2026-05-14</lastmod>
+         <lastmod>2026-05-15</lastmod>
     </url>
     <url>
          <loc>https://hopweevil.github.io/original-upscale-sdk-unity/api/Core/Input/Runtime/Glyphs/KeyboardIconsSet/</loc>
-         <lastmod>2026-05-14</lastmod>
+         <lastmod>2026-05-15</lastmod>
     </url>
     <url>
          <loc>https://hopweevil.github.io/original-upscale-sdk-unity/api/Core/Input/Runtime/Glyphs/Abstractions/IGlyphProvider/</loc>
-         <lastmod>2026-05-14</lastmod>
+         <lastmod>2026-05-15</lastmod>
     </url>
     <url>
          <loc>https://hopweevil.github.io/original-upscale-sdk-unity/api/Core/Input/Runtime/Glyphs/Abstractions/IGlyphSource/</loc>
-         <lastmod>2026-05-14</lastmod>
+         <lastmod>2026-05-15</lastmod>
     </url>
     <url>
          <loc>https://hopweevil.github.io/original-upscale-sdk-unity/api/Core/Input/Runtime/Glyphs/Enums/GamepadGlyph/</loc>
-         <lastmod>2026-05-14</lastmod>
+         <lastmod>2026-05-15</lastmod>
     </url>
     <url>
          <loc>https://hopweevil.github.io/original-upscale-sdk-unity/api/Core/Input/Runtime/Processors/DeadzoneVector2Processor/</loc>
-         <lastmod>2026-05-14</lastmod>
+         <lastmod>2026-05-15</lastmod>
     </url>
     <url>
          <loc>https://hopweevil.github.io/original-upscale-sdk-unity/api/Core/Input/Runtime/Processors/DelayVector2Processor/</loc>
-         <lastmod>2026-05-14</lastmod>
+         <lastmod>2026-05-15</lastmod>
     </url>
     <url>
          <loc>https://hopweevil.github.io/original-upscale-sdk-unity/api/Core/Input/Runtime/Processors/InvertBoolProcessor/</loc>
-         <lastmod>2026-05-14</lastmod>
+         <lastmod>2026-05-15</lastmod>
     </url>
     <url>
          <loc>https://hopweevil.github.io/original-upscale-sdk-unity/api/Core/Input/Runtime/Processors/InvertFloatProcessor/</loc>
-         <lastmod>2026-05-14</lastmod>
+         <lastmod>2026-05-15</lastmod>
     </url>
     <url>
          <loc>https://hopweevil.github.io/original-upscale-sdk-unity/api/Core/Input/Runtime/Processors/InvertXVector2Processor/</loc>
-         <lastmod>2026-05-14</lastmod>
+         <lastmod>2026-05-15</lastmod>
     </url>
     <url>
          <loc>https://hopweevil.github.io/original-upscale-sdk-unity/api/Core/Input/Runtime/Processors/InvertYVector2Processor/</loc>
-         <lastmod>2026-05-14</lastmod>
+         <lastmod>2026-05-15</lastmod>
     </url>
     <url>
          <loc>https://hopweevil.github.io/original-upscale-sdk-unity/api/Core/Input/Runtime/Processors/Abstractions/IProcessor/</loc>
-         <lastmod>2026-05-14</lastmod>
+         <lastmod>2026-05-15</lastmod>
     </url>
     <url>
          <loc>https://hopweevil.github.io/original-upscale-sdk-unity/api/Core/Input/Runtime/Provider/Abstractions/IInputProvider/</loc>
-         <lastmod>2026-05-14</lastmod>
+         <lastmod>2026-05-15</lastmod>
     </url>
     <url>
          <loc>https://hopweevil.github.io/original-upscale-sdk-unity/api/Core/Input/Runtime/Provider/NewInputSystem/NewUnityInputProvider/</loc>
-         <lastmod>2026-05-14</lastmod>
+         <lastmod>2026-05-15</lastmod>
     </url>
     <url>
          <loc>https://hopweevil.github.io/original-upscale-sdk-unity/api/Core/Input/Runtime/Sources/Abstractions/IInputSource/</loc>
-         <lastmod>2026-05-14</lastmod>
+         <lastmod>2026-05-15</lastmod>
     </url>
     <url>
          <loc>https://hopweevil.github.io/original-upscale-sdk-unity/api/Core/Input/Runtime/Sources/Gamepad/Gamepad1DAxisSource/</loc>
-         <lastmod>2026-05-14</lastmod>
+         <lastmod>2026-05-15</lastmod>
     </url>
     <url>
          <loc>https://hopweevil.github.io/original-upscale-sdk-unity/api/Core/Input/Runtime/Sources/Gamepad/Gamepad2DAxisSource/</loc>
-         <lastmod>2026-05-14</lastmod>
+         <lastmod>2026-05-15</lastmod>
     </url>
     <url>
          <loc>https://hopweevil.github.io/original-upscale-sdk-unity/api/Core/Input/Runtime/Sources/Gamepad/GamepadActionSource/</loc>
-         <lastmod>2026-05-14</lastmod>
+         <lastmod>2026-05-15</lastmod>
     </url>
     <url>
          <loc>https://hopweevil.github.io/original-upscale-sdk-unity/api/Core/Input/Runtime/Sources/Gamepad/GamepadButtonSource/</loc>
-         <lastmod>2026-05-14</lastmod>
+         <lastmod>2026-05-15</lastmod>
     </url>
     <url>
          <loc>https://hopweevil.github.io/original-upscale-sdk-unity/api/Core/Saves/Runtime/Core/AutoSaver/</loc>
-         <lastmod>2026-05-14</lastmod>
+         <lastmod>2026-05-15</lastmod>
     </url>
     <url>
          <loc>https://hopweevil.github.io/original-upscale-sdk-unity/api/Core/Saves/Runtime/Core/IFactory/</loc>
-         <lastmod>2026-05-14</lastmod>
+         <lastmod>2026-05-15</lastmod>
     </url>
     <url>
          <loc>https://hopweevil.github.io/original-upscale-sdk-unity/api/Core/Saves/Runtime/Core/ISaverEvents/</loc>
-         <lastmod>2026-05-14</lastmod>
+         <lastmod>2026-05-15</lastmod>
     </url>
     <url>
          <loc>https://hopweevil.github.io/original-upscale-sdk-unity/api/Core/Saves/Runtime/Core/SaveItem/</loc>
-         <lastmod>2026-05-14</lastmod>
+         <lastmod>2026-05-15</lastmod>
     </url>
     <url>
          <loc>https://hopweevil.github.io/original-upscale-sdk-unity/api/Core/Saves/Runtime/Core/Saver/</loc>
-         <lastmod>2026-05-14</lastmod>
+         <lastmod>2026-05-15</lastmod>
     </url>
     <url>
          <loc>https://hopweevil.github.io/original-upscale-sdk-unity/api/Core/Saves/Runtime/Core/SerializableSave/</loc>
-         <lastmod>2026-05-14</lastmod>
+         <lastmod>2026-05-15</lastmod>
     </url>
     <url>
          <loc>https://hopweevil.github.io/original-upscale-sdk-unity/api/Core/Saves/Runtime/Core/SerializatorFactory/</loc>
-         <lastmod>2026-05-14</lastmod>
+         <lastmod>2026-05-15</lastmod>
     </url>
     <url>
          <loc>https://hopweevil.github.io/original-upscale-sdk-unity/api/Core/Saves/Runtime/Core/UPSPlayerPrefs/</loc>
-         <lastmod>2026-05-14</lastmod>
+         <lastmod>2026-05-15</lastmod>
     </url>
     <url>
          <loc>https://hopweevil.github.io/original-upscale-sdk-unity/api/Core/Saves/Runtime/Core/UPSSaves/</loc>
-         <lastmod>2026-05-14</lastmod>
+         <lastmod>2026-05-15</lastmod>
     </url>
     <url>
          <loc>https://hopweevil.github.io/original-upscale-sdk-unity/api/Core/Saves/Runtime/ErrorHandling/ErrorHandler/</loc>
-         <lastmod>2026-05-14</lastmod>
+         <lastmod>2026-05-15</lastmod>
     </url>
     <url>
          <loc>https://hopweevil.github.io/original-upscale-sdk-unity/api/Core/Saves/Runtime/FileSystems/FileEntry/</loc>
-         <lastmod>2026-05-14</lastmod>
+         <lastmod>2026-05-15</lastmod>
     </url>
     <url>
          <loc>https://hopweevil.github.io/original-upscale-sdk-unity/api/Core/Saves/Runtime/FileSystems/IFileSystem/</loc>
-         <lastmod>2026-05-14</lastmod>
+         <lastmod>2026-05-15</lastmod>
     </url>
     <url>
          <loc>https://hopweevil.github.io/original-upscale-sdk-unity/api/Core/Saves/Runtime/FileSystems/IReader/</loc>
-         <lastmod>2026-05-14</lastmod>
+         <lastmod>2026-05-15</lastmod>
     </url>
     <url>
          <loc>https://hopweevil.github.io/original-upscale-sdk-unity/api/Core/Saves/Runtime/FileSystems/IWriter/</loc>
-         <lastmod>2026-05-14</lastmod>
+         <lastmod>2026-05-15</lastmod>
     </url>
     <url>
          <loc>https://hopweevil.github.io/original-upscale-sdk-unity/api/Core/Saves/Runtime/Serialization/ISerializator/</loc>
-         <lastmod>2026-05-14</lastmod>
+         <lastmod>2026-05-15</lastmod>
     </url>
     <url>
          <loc>https://hopweevil.github.io/original-upscale-sdk-unity/api/Core/Saves/Runtime/Serialization/JsonSerializator/</loc>
-         <lastmod>2026-05-14</lastmod>
+         <lastmod>2026-05-15</lastmod>
     </url>
     <url>
          <loc>https://hopweevil.github.io/original-upscale-sdk-unity/api/Core/Saves/Runtime/Settings/SavesSettings/</loc>
-         <lastmod>2026-05-14</lastmod>
+         <lastmod>2026-05-15</lastmod>
     </url>
     <url>
          <loc>https://hopweevil.github.io/original-upscale-sdk-unity/api/Core/UI/Runtime/ActionButtonElement/</loc>
-         <lastmod>2026-05-14</lastmod>
+         <lastmod>2026-05-15</lastmod>
     </url>
     <url>
          <loc>https://hopweevil.github.io/original-upscale-sdk-unity/api/Core/UI/Runtime/ActionSliderElement/</loc>
-         <lastmod>2026-05-14</lastmod>
+         <lastmod>2026-05-15</lastmod>
     </url>
     <url>
          <loc>https://hopweevil.github.io/original-upscale-sdk-unity/api/Core/UI/Runtime/ActivateLayerTrigger/</loc>
-         <lastmod>2026-05-14</lastmod>
+         <lastmod>2026-05-15</lastmod>
     </url>
     <url>
          <loc>https://hopweevil.github.io/original-upscale-sdk-unity/api/Core/UI/Runtime/Layer/</loc>
-         <lastmod>2026-05-14</lastmod>
+         <lastmod>2026-05-15</lastmod>
     </url>
     <url>
          <loc>https://hopweevil.github.io/original-upscale-sdk-unity/api/Core/UI/Runtime/LayerNavigation/</loc>
-         <lastmod>2026-05-14</lastmod>
+         <lastmod>2026-05-15</lastmod>
     </url>
     <url>
          <loc>https://hopweevil.github.io/original-upscale-sdk-unity/api/Core/UI/Runtime/LayerNavigator/</loc>
-         <lastmod>2026-05-14</lastmod>
+         <lastmod>2026-05-15</lastmod>
     </url>
     <url>
          <loc>https://hopweevil.github.io/original-upscale-sdk-unity/api/Core/UI/Runtime/Transition/</loc>
-         <lastmod>2026-05-14</lastmod>
+         <lastmod>2026-05-15</lastmod>
     </url>
     <url>
          <loc>https://hopweevil.github.io/original-upscale-sdk-unity/api/Core/UI/Runtime/UIElement/</loc>
-         <lastmod>2026-05-14</lastmod>
+         <lastmod>2026-05-15</lastmod>
     </url>
     <url>
          <loc>https://hopweevil.github.io/original-upscale-sdk-unity/api/Core/UI/Runtime/UILayersManager/</loc>
-         <lastmod>2026-05-14</lastmod>
+         <lastmod>2026-05-15</lastmod>
     </url>
     <url>
          <loc>https://hopweevil.github.io/original-upscale-sdk-unity/api/Core/UI/Runtime/Enums/Corner/</loc>
-         <lastmod>2026-05-14</lastmod>
+         <lastmod>2026-05-15</lastmod>
     </url>
     <url>
          <loc>https://hopweevil.github.io/original-upscale-sdk-unity/api/Core/UI/Runtime/Enums/FindType/</loc>
-         <lastmod>2026-05-14</lastmod>
+         <lastmod>2026-05-15</lastmod>
     </url>
     <url>
          <loc>https://hopweevil.github.io/original-upscale-sdk-unity/api/Core/UI/Runtime/Enums/TriggerType/</loc>
-         <lastmod>2026-05-14</lastmod>
+         <lastmod>2026-05-15</lastmod>
     </url>
     <url>
          <loc>https://hopweevil.github.io/original-upscale-sdk-unity/api/Core/Utils/UPSLogger/</loc>
-         <lastmod>2026-05-14</lastmod>
+         <lastmod>2026-05-15</lastmod>
     </url>
     <url>
          <loc>https://hopweevil.github.io/original-upscale-sdk-unity/api/Core/Validator/UpscaleSDKBuildValidator/</loc>
-         <lastmod>2026-05-14</lastmod>
+         <lastmod>2026-05-15</lastmod>
     </url>
     <url>
          <loc>https://hopweevil.github.io/original-upscale-sdk-unity/api/Core/Validator/UpscaleSDKValidationMenu/</loc>
-         <lastmod>2026-05-14</lastmod>
+         <lastmod>2026-05-15</lastmod>
     </url>
     <url>
          <loc>https://hopweevil.github.io/original-upscale-sdk-unity/api/Core/Validator/UpscaleSDKValidatorRunner/</loc>
-         <lastmod>2026-05-14</lastmod>
+         <lastmod>2026-05-15</lastmod>
     </url>
     <url>
          <loc>https://hopweevil.github.io/original-upscale-sdk-unity/api/Core/Validator/ValidationResult/</loc>
-         <lastmod>2026-05-14</lastmod>
+         <lastmod>2026-05-15</lastmod>
     </url>
     <url>
          <loc>https://hopweevil.github.io/original-upscale-sdk-unity/api/Core/Validator/Validator/</loc>
-         <lastmod>2026-05-14</lastmod>
+         <lastmod>2026-05-15</lastmod>
     </url>
     <url>
          <loc>https://hopweevil.github.io/original-upscale-sdk-unity/api/Platform/Desktop/DesktopFileSystem/</loc>
-         <lastmod>2026-05-14</lastmod>
+         <lastmod>2026-05-15</lastmod>
     </url>
     <url>
          <loc>https://hopweevil.github.io/original-upscale-sdk-unity/api/Platform/Desktop/DesktopPlatform/</loc>
-         <lastmod>2026-05-14</lastmod>
+         <lastmod>2026-05-15</lastmod>
     </url>
     <url>
          <loc>https://hopweevil.github.io/original-upscale-sdk-unity/api/Platform/Desktop/DesktopValidator/</loc>
-         <lastmod>2026-05-14</lastmod>
+         <lastmod>2026-05-15</lastmod>
     </url>
     <url>
          <loc>https://hopweevil.github.io/original-upscale-sdk-unity/api/Platform/PS4/PS4Validator/</loc>
-         <lastmod>2026-05-14</lastmod>
+         <lastmod>2026-05-15</lastmod>
     </url>
     <url>
          <loc>https://hopweevil.github.io/original-upscale-sdk-unity/api/Platform/PS4/App/AppData/</loc>
-         <lastmod>2026-05-14</lastmod>
+         <lastmod>2026-05-15</lastmod>
     </url>
     <url>
          <loc>https://hopweevil.github.io/original-upscale-sdk-unity/api/Platform/PS4/App/AppInitializator/</loc>
-         <lastmod>2026-05-14</lastmod>
+         <lastmod>2026-05-15</lastmod>
     </url>
     <url>
          <loc>https://hopweevil.github.io/original-upscale-sdk-unity/api/Platform/PS4/Common/MainUpdater/</loc>
-         <lastmod>2026-05-14</lastmod>
+         <lastmod>2026-05-15</lastmod>
     </url>
     <url>
          <loc>https://hopweevil.github.io/original-upscale-sdk-unity/api/Platform/PS4/Common/PS4Platform/</loc>
-         <lastmod>2026-05-14</lastmod>
+         <lastmod>2026-05-15</lastmod>
     </url>
     <url>
          <loc>https://hopweevil.github.io/original-upscale-sdk-unity/api/Platform/PS4/DependencyManagement/IDependency/</loc>
-         <lastmod>2026-05-14</lastmod>
+         <lastmod>2026-05-15</lastmod>
     </url>
     <url>
          <loc>https://hopweevil.github.io/original-upscale-sdk-unity/api/Platform/PS4/Saves/PS4FileSystem/</loc>
-         <lastmod>2026-05-14</lastmod>
+         <lastmod>2026-05-15</lastmod>
     </url>
     <url>
          <loc>https://hopweevil.github.io/original-upscale-sdk-unity/api/Platform/PS4/Saves/ReadFileRequest/</loc>
-         <lastmod>2026-05-14</lastmod>
+         <lastmod>2026-05-15</lastmod>
     </url>
     <url>
          <loc>https://hopweevil.github.io/original-upscale-sdk-unity/api/Platform/PS4/Saves/ReadFileResponse/</loc>
-         <lastmod>2026-05-14</lastmod>
+         <lastmod>2026-05-15</lastmod>
     </url>
     <url>
          <loc>https://hopweevil.github.io/original-upscale-sdk-unity/api/Platform/PS4/Saves/WriteFileRequest/</loc>
-         <lastmod>2026-05-14</lastmod>
+         <lastmod>2026-05-15</lastmod>
     </url>
     <url>
          <loc>https://hopweevil.github.io/original-upscale-sdk-unity/api/Platform/PS4/Saves/WriteFileResponse/</loc>
-         <lastmod>2026-05-14</lastmod>
+         <lastmod>2026-05-15</lastmod>
     </url>
     <url>
          <loc>https://hopweevil.github.io/original-upscale-sdk-unity/api/Platform/PS4/TrophiesManagement/Ps4Trophies/</loc>
-         <lastmod>2026-05-14</lastmod>
+         <lastmod>2026-05-15</lastmod>
     </url>
     <url>
          <loc>https://hopweevil.github.io/original-upscale-sdk-unity/api/Platform/PS4/User/UserData/</loc>
-         <lastmod>2026-05-14</lastmod>
+         <lastmod>2026-05-15</lastmod>
     </url>
     <url>
          <loc>https://hopweevil.github.io/original-upscale-sdk-unity/api/Platform/PS5/PS5Validator/</loc>
-         <lastmod>2026-05-14</lastmod>
+         <lastmod>2026-05-15</lastmod>
     </url>
     <url>
          <loc>https://hopweevil.github.io/original-upscale-sdk-unity/api/Platform/PS5/App/AppData/</loc>
-         <lastmod>2026-05-14</lastmod>
+         <lastmod>2026-05-15</lastmod>
     </url>
     <url>
          <loc>https://hopweevil.github.io/original-upscale-sdk-unity/api/Platform/PS5/App/AppInitializer/</loc>
-         <lastmod>2026-05-14</lastmod>
+         <lastmod>2026-05-15</lastmod>
     </url>
     <url>
          <loc>https://hopweevil.github.io/original-upscale-sdk-unity/api/Platform/PS5/Common/MainThreadDispatcher/</loc>
-         <lastmod>2026-05-14</lastmod>
+         <lastmod>2026-05-15</lastmod>
     </url>
     <url>
          <loc>https://hopweevil.github.io/original-upscale-sdk-unity/api/Platform/PS5/Common/PS5Platform/</loc>
-         <lastmod>2026-05-14</lastmod>
+         <lastmod>2026-05-15</lastmod>
     </url>
     <url>
          <loc>https://hopweevil.github.io/original-upscale-sdk-unity/api/Platform/PS5/Common/PSNAsyncRequestExtensions/</loc>
-         <lastmod>2026-05-14</lastmod>
+         <lastmod>2026-05-15</lastmod>
     </url>
     <url>
          <loc>https://hopweevil.github.io/original-upscale-sdk-unity/api/Platform/PS5/DependencyManagement/IDependency/</loc>
-         <lastmod>2026-05-14</lastmod>
+         <lastmod>2026-05-15</lastmod>
     </url>
     <url>
          <loc>https://hopweevil.github.io/original-upscale-sdk-unity/api/Platform/PS5/Saves/EnumerateFileResponse/</loc>
-         <lastmod>2026-05-14</lastmod>
+         <lastmod>2026-05-15</lastmod>
     </url>
     <url>
          <loc>https://hopweevil.github.io/original-upscale-sdk-unity/api/Platform/PS5/Saves/EnumerateFilesRequest/</loc>
-         <lastmod>2026-05-14</lastmod>
+         <lastmod>2026-05-15</lastmod>
     </url>
     <url>
          <loc>https://hopweevil.github.io/original-upscale-sdk-unity/api/Platform/PS5/Saves/PS5FileSystem/</loc>
-         <lastmod>2026-05-14</lastmod>
+         <lastmod>2026-05-15</lastmod>
     </url>
     <url>
          <loc>https://hopweevil.github.io/original-upscale-sdk-unity/api/Platform/PS5/Saves/ReadFileRequest/</loc>
-         <lastmod>2026-05-14</lastmod>
+         <lastmod>2026-05-15</lastmod>
     </url>
     <url>
          <loc>https://hopweevil.github.io/original-upscale-sdk-unity/api/Platform/PS5/Saves/ReadFileResponse/</loc>
-         <lastmod>2026-05-14</lastmod>
+         <lastmod>2026-05-15</lastmod>
     </url>
     <url>
          <loc>https://hopweevil.github.io/original-upscale-sdk-unity/api/Platform/PS5/Saves/WriteFileRequest/</loc>
-         <lastmod>2026-05-14</lastmod>
+         <lastmod>2026-05-15</lastmod>
     </url>
     <url>
          <loc>https://hopweevil.github.io/original-upscale-sdk-unity/api/Platform/PS5/Saves/WriteFileResponse/</loc>
-         <lastmod>2026-05-14</lastmod>
+         <lastmod>2026-05-15</lastmod>
     </url>
     <url>
          <loc>https://hopweevil.github.io/original-upscale-sdk-unity/api/Platform/PS5/Users/UserData/</loc>
-         <lastmod>2026-05-14</lastmod>
+         <lastmod>2026-05-15</lastmod>
     </url>
     <url>
          <loc>https://hopweevil.github.io/original-upscale-sdk-unity/api/Platform/PS5/Users/UserInitializer/</loc>
-         <lastmod>2026-05-14</lastmod>
+         <lastmod>2026-05-15</lastmod>
     </url>
     <url>
          <loc>https://hopweevil.github.io/original-upscale-sdk-unity/api/Platform/PS5/Users/Activities/ActivityResult/</loc>
-         <lastmod>2026-05-14</lastmod>
+         <lastmod>2026-05-15</lastmod>
     </url>
     <url>
          <loc>https://hopweevil.github.io/original-upscale-sdk-unity/api/Platform/PS5/Users/Activities/Ps5Activities/</loc>
-         <lastmod>2026-05-14</lastmod>
+         <lastmod>2026-05-15</lastmod>
     </url>
     <url>
          <loc>https://hopweevil.github.io/original-upscale-sdk-unity/api/Platform/PS5/Users/Trophies/Ps5Trophies/</loc>
-         <lastmod>2026-05-14</lastmod>
+         <lastmod>2026-05-15</lastmod>
     </url>
     <url>
          <loc>https://hopweevil.github.io/original-upscale-sdk-unity/api/Platform/PS5/Users/Trophies/TrophiesData/</loc>
-         <lastmod>2026-05-14</lastmod>
+         <lastmod>2026-05-15</lastmod>
     </url>
     <url>
          <loc>https://hopweevil.github.io/original-upscale-sdk-unity/api/Platform/PS5/Users/Trophies/Trophy/</loc>
-         <lastmod>2026-05-14</lastmod>
+         <lastmod>2026-05-15</lastmod>
     </url>
     <url>
          <loc>https://hopweevil.github.io/original-upscale-sdk-unity/api/Platform/Switch/SwitchFileSystem/</loc>
-         <lastmod>2026-05-14</lastmod>
+         <lastmod>2026-05-15</lastmod>
     </url>
     <url>
          <loc>https://hopweevil.github.io/original-upscale-sdk-unity/api/Platform/Switch/SwitchPlatform/</loc>
-         <lastmod>2026-05-14</lastmod>
+         <lastmod>2026-05-15</lastmod>
     </url>
     <url>
          <loc>https://hopweevil.github.io/original-upscale-sdk-unity/api/Platform/Switch/SwitchValidator/</loc>
-         <lastmod>2026-05-14</lastmod>
+         <lastmod>2026-05-15</lastmod>
     </url>
     <url>
          <loc>https://hopweevil.github.io/original-upscale-sdk-unity/api/Platform/XBOX/XBOXFileSystem/</loc>
-         <lastmod>2026-05-14</lastmod>
+         <lastmod>2026-05-15</lastmod>
     </url>
     <url>
          <loc>https://hopweevil.github.io/original-upscale-sdk-unity/api/Platform/XBOX/XboxAchievements/</loc>
-         <lastmod>2026-05-14</lastmod>
+         <lastmod>2026-05-15</lastmod>
     </url>
     <url>
          <loc>https://hopweevil.github.io/original-upscale-sdk-unity/api/Platform/XBOX/XboxData/</loc>
-         <lastmod>2026-05-14</lastmod>
+         <lastmod>2026-05-15</lastmod>
     </url>
     <url>
          <loc>https://hopweevil.github.io/original-upscale-sdk-unity/api/Platform/XBOX/XboxPlatform/</loc>
-         <lastmod>2026-05-14</lastmod>
+         <lastmod>2026-05-15</lastmod>
     </url>
     <url>
          <loc>https://hopweevil.github.io/original-upscale-sdk-unity/api/Platform/XBOX/XboxValidator/</loc>
-         <lastmod>2026-05-14</lastmod>
-    </url>
-    <url>
-         <loc>https://hopweevil.github.io/original-upscale-sdk-unity/manual/</loc>
-         <lastmod>2026-05-14</lastmod>
+         <lastmod>2026-05-15</lastmod>
     </url>
     <url>
          <loc>https://hopweevil.github.io/original-upscale-sdk-unity/manual/getting-started/</loc>
-         <lastmod>2026-05-14</lastmod>
+         <lastmod>2026-05-15</lastmod>
     </url>
     <url>
          <loc>https://hopweevil.github.io/original-upscale-sdk-unity/manual/Core/Configuration/</loc>
-         <lastmod>2026-05-14</lastmod>
+         <lastmod>2026-05-15</lastmod>
     </url>
     <url>
          <loc>https://hopweevil.github.io/original-upscale-sdk-unity/manual/Core/Input/</loc>
-         <lastmod>2026-05-14</lastmod>
+         <lastmod>2026-05-15</lastmod>
     </url>
     <url>
          <loc>https://hopweevil.github.io/original-upscale-sdk-unity/manual/Core/Saves/</loc>
-         <lastmod>2026-05-14</lastmod>
+         <lastmod>2026-05-15</lastmod>
     </url>
     <url>
          <loc>https://hopweevil.github.io/original-upscale-sdk-unity/manual/Core/UI/</loc>
-         <lastmod>2026-05-14</lastmod>
+         <lastmod>2026-05-15</lastmod>
     </url>
     <url>
          <loc>https://hopweevil.github.io/original-upscale-sdk-unity/manual/Core/Utils/</loc>
-         <lastmod>2026-05-14</lastmod>
+         <lastmod>2026-05-15</lastmod>
     </url>
     <url>
          <loc>https://hopweevil.github.io/original-upscale-sdk-unity/manual/Core/Validator/</loc>
-         <lastmod>2026-05-14</lastmod>
+         <lastmod>2026-05-15</lastmod>
     </url>
     <url>
          <loc>https://hopweevil.github.io/original-upscale-sdk-unity/manual/Platform/Desktop/</loc>
-         <lastmod>2026-05-14</lastmod>
+         <lastmod>2026-05-15</lastmod>
     </url>
     <url>
          <loc>https://hopweevil.github.io/original-upscale-sdk-unity/manual/Platform/PS4/</loc>
-         <lastmod>2026-05-14</lastmod>
+         <lastmod>2026-05-15</lastmod>
     </url>
     <url>
          <loc>https://hopweevil.github.io/original-upscale-sdk-unity/manual/Platform/PS5/</loc>
-         <lastmod>2026-05-14</lastmod>
+         <lastmod>2026-05-15</lastmod>
     </url>
     <url>
          <loc>https://hopweevil.github.io/original-upscale-sdk-unity/manual/Platform/Switch/</loc>
-         <lastmod>2026-05-14</lastmod>
+         <lastmod>2026-05-15</lastmod>
     </url>
     <url>
          <loc>https://hopweevil.github.io/original-upscale-sdk-unity/manual/Platform/Xbox/</loc>
-         <lastmod>2026-05-14</lastmod>
+         <lastmod>2026-05-15</lastmod>
+    </url>
+    <url>
+         <loc>https://hopweevil.github.io/original-upscale-sdk-unity/overview/</loc>
+         <lastmod>2026-05-15</lastmod>
+    </url>
+    <url>
+         <loc>https://hopweevil.github.io/original-upscale-sdk-unity/overview/roadmap/</loc>
+         <lastmod>2026-05-15</lastmod>
+    </url>
+    <url>
+         <loc>https://hopweevil.github.io/original-upscale-sdk-unity/overview/unity-compatibility/</loc>
+         <lastmod>2026-05-15</lastmod>
     </url>
     <url>
          <loc>https://hopweevil.github.io/original-upscale-sdk-unity/samples/</loc>
-         <lastmod>2026-05-14</lastmod>
+         <lastmod>2026-05-15</lastmod>
     </url>
     <url>
          <loc>https://hopweevil.github.io/original-upscale-sdk-unity/samples/input/</loc>
-         <lastmod>2026-05-14</lastmod>
+         <lastmod>2026-05-15</lastmod>
     </url>
     <url>
          <loc>https://hopweevil.github.io/original-upscale-sdk-unity/samples/saves/</loc>
-         <lastmod>2026-05-14</lastmod>
+         <lastmod>2026-05-15</lastmod>
     </url>
     <url>
          <loc>https://hopweevil.github.io/original-upscale-sdk-unity/samples/ui/</loc>
-         <lastmod>2026-05-14</lastmod>
+         <lastmod>2026-05-15</lastmod>
     </url>
 </urlset>
