@@ -355,6 +355,27 @@
 
               
             
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../../changelog/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Changelog
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
           </ul>
         </nav>
       
@@ -2037,6 +2058,66 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#public-static-event-actionint-onplayerjoined" class="md-nav__link">
+    <span class="md-ellipsis">
+      public static event Action&lt;int&gt; OnPlayerJoined
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#public-static-event-actionint-onplayerleft" class="md-nav__link">
+    <span class="md-ellipsis">
+      public static event Action&lt;int&gt; OnPlayerLeft
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#public-static-event-actionint-onplayergamepadlost" class="md-nav__link">
+    <span class="md-ellipsis">
+      public static event Action&lt;int&gt; OnPlayerGamepadLost
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#public-static-event-actionint-onplayergamepadregained" class="md-nav__link">
+    <span class="md-ellipsis">
+      public static event Action&lt;int&gt; OnPlayerGamepadRegained
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#properties" class="md-nav__link">
+    <span class="md-ellipsis">
+      Properties
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Properties">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#public-static-int-maxplayers" class="md-nav__link">
+    <span class="md-ellipsis">
+      public static int MaxPlayers
+    </span>
+  </a>
+  
+</li>
+        
       </ul>
     </nav>
   
@@ -2062,18 +2143,18 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#public-static-void-subscribetstring-action-actiont-callback" class="md-nav__link">
+  <a href="#public-static-void-subscribetstring-action-actiont-callback-int-player-inputplayerfirst" class="md-nav__link">
     <span class="md-ellipsis">
-      public static void Subscribe&lt;T&gt;(string action, Action&lt;T&gt; callback)
+      public static void Subscribe&lt;T&gt;(string action, Action&lt;T&gt; callback, int player = InputPlayer.First)
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#public-static-void-unsubscribetstring-action-actiont-callback" class="md-nav__link">
+  <a href="#public-static-void-unsubscribetstring-action-actiont-callback-int-player-inputplayerfirst" class="md-nav__link">
     <span class="md-ellipsis">
-      public static void Unsubscribe&lt;T&gt;(string action, Action&lt;T&gt; callback)
+      public static void Unsubscribe&lt;T&gt;(string action, Action&lt;T&gt; callback, int player = InputPlayer.First)
     </span>
   </a>
   
@@ -2116,9 +2197,9 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#public-static-void-unbindstring-actionname" class="md-nav__link">
+  <a href="#public-static-void-unbindstring-actionname-int-player-inputplayerfirst" class="md-nav__link">
     <span class="md-ellipsis">
-      public static void Unbind(string actionName)
+      public static void Unbind(string actionName, int player = InputPlayer.First)
     </span>
   </a>
   
@@ -2134,9 +2215,9 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#public-static-actionresultt-gettstring-action" class="md-nav__link">
+  <a href="#public-static-actionresultt-gettstring-action-int-player-inputplayerfirst" class="md-nav__link">
     <span class="md-ellipsis">
-      public static ActionResult&lt;T&gt; Get&lt;T&gt;(string action)
+      public static ActionResult&lt;T&gt; Get&lt;T&gt;(string action, int player = InputPlayer.First)
     </span>
   </a>
   
@@ -2173,6 +2254,51 @@
   <a href="#public-static-void-stopgamepadvibrationint-player-0" class="md-nav__link">
     <span class="md-ellipsis">
       public static void StopGamepadVibration(int player = 0)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#public-static-ireadonlylistint-getactiveplayers" class="md-nav__link">
+    <span class="md-ellipsis">
+      public static IReadOnlyList&lt;int&gt; GetActivePlayers()
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#public-static-bool-isplayeractiveint-player" class="md-nav__link">
+    <span class="md-ellipsis">
+      public static bool IsPlayerActive(int player)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#public-static-bool-iswaitingforgamepadint-player" class="md-nav__link">
+    <span class="md-ellipsis">
+      public static bool IsWaitingForGamepad(int player)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#public-static-ireadonlylistint-getplayerswaitingforgamepad" class="md-nav__link">
+    <span class="md-ellipsis">
+      public static IReadOnlyList&lt;int&gt; GetPlayersWaitingForGamepad()
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#public-static-bool-removeplayerint-player" class="md-nav__link">
+    <span class="md-ellipsis">
+      public static bool RemovePlayer(int player)
     </span>
   </a>
   
@@ -2984,7 +3110,7 @@
             
   
   <span class="md-ellipsis">
-    Processors
+    Players
   </span>
   
 
@@ -2993,6 +3119,114 @@
         
         <nav class="md-nav" data-md-level="5" aria-labelledby="__nav_4_2_5_1_6_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_4_2_5_1_6">
+            <span class="md-nav__icon md-icon"></span>
+            Players
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Players/InputPlayer/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    InputPlayer
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Players/InputPlayersSettings/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    InputPlayersSettings
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Players/PlayerJoinRule/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    PlayerJoinRule
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_2_5_1_7" >
+        
+          
+          <label class="md-nav__link" for="__nav_4_2_5_1_7" id="__nav_4_2_5_1_7_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Processors
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="5" aria-labelledby="__nav_4_2_5_1_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_2_5_1_7">
             <span class="md-nav__icon md-icon"></span>
             Processors
           </label>
@@ -3140,10 +3374,10 @@
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_2_5_1_6_7" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_2_5_1_7_7" >
         
           
-          <label class="md-nav__link" for="__nav_4_2_5_1_6_7" id="__nav_4_2_5_1_6_7_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_4_2_5_1_7_7" id="__nav_4_2_5_1_7_7_label" tabindex="0">
             
   
   <span class="md-ellipsis">
@@ -3154,8 +3388,8 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="6" aria-labelledby="__nav_4_2_5_1_6_7_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_4_2_5_1_6_7">
+        <nav class="md-nav" data-md-level="6" aria-labelledby="__nav_4_2_5_1_7_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_2_5_1_7_7">
             <span class="md-nav__icon md-icon"></span>
             Abstractions
           </label>
@@ -3214,10 +3448,10 @@
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_2_5_1_7" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_2_5_1_8" >
         
           
-          <label class="md-nav__link" for="__nav_4_2_5_1_7" id="__nav_4_2_5_1_7_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_4_2_5_1_8" id="__nav_4_2_5_1_8_label" tabindex="0">
             
   
   <span class="md-ellipsis">
@@ -3228,8 +3462,8 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="5" aria-labelledby="__nav_4_2_5_1_7_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_4_2_5_1_7">
+        <nav class="md-nav" data-md-level="5" aria-labelledby="__nav_4_2_5_1_8_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_2_5_1_8">
             <span class="md-nav__icon md-icon"></span>
             Provider
           </label>
@@ -3251,10 +3485,10 @@
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_2_5_1_7_1" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_2_5_1_8_1" >
         
           
-          <label class="md-nav__link" for="__nav_4_2_5_1_7_1" id="__nav_4_2_5_1_7_1_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_4_2_5_1_8_1" id="__nav_4_2_5_1_8_1_label" tabindex="0">
             
   
   <span class="md-ellipsis">
@@ -3265,12 +3499,33 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="6" aria-labelledby="__nav_4_2_5_1_7_1_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_4_2_5_1_7_1">
+        <nav class="md-nav" data-md-level="6" aria-labelledby="__nav_4_2_5_1_8_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_2_5_1_8_1">
             <span class="md-nav__icon md-icon"></span>
             Abstractions
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Provider/Abstractions/IInputPlayers/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    IInputPlayers
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
             
               
                 
@@ -3317,10 +3572,10 @@
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_2_5_1_7_2" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_2_5_1_8_2" >
         
           
-          <label class="md-nav__link" for="__nav_4_2_5_1_7_2" id="__nav_4_2_5_1_7_2_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_4_2_5_1_8_2" id="__nav_4_2_5_1_8_2_label" tabindex="0">
             
   
   <span class="md-ellipsis">
@@ -3331,12 +3586,54 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="6" aria-labelledby="__nav_4_2_5_1_7_2_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_4_2_5_1_7_2">
+        <nav class="md-nav" data-md-level="6" aria-labelledby="__nav_4_2_5_1_8_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_2_5_1_8_2">
             <span class="md-nav__icon md-icon"></span>
             NewInputSystem
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Provider/NewInputSystem/GamepadPlayers/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    GamepadPlayers
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Provider/NewInputSystem/GamepadTypeDetector/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    GamepadTypeDetector
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
             
               
                 
@@ -3391,10 +3688,10 @@
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_2_5_1_8" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_2_5_1_9" >
         
           
-          <label class="md-nav__link" for="__nav_4_2_5_1_8" id="__nav_4_2_5_1_8_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_4_2_5_1_9" id="__nav_4_2_5_1_9_label" tabindex="0">
             
   
   <span class="md-ellipsis">
@@ -3405,8 +3702,8 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="5" aria-labelledby="__nav_4_2_5_1_8_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_4_2_5_1_8">
+        <nav class="md-nav" data-md-level="5" aria-labelledby="__nav_4_2_5_1_9_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_2_5_1_9">
             <span class="md-nav__icon md-icon"></span>
             Sources
           </label>
@@ -3428,10 +3725,10 @@
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_2_5_1_8_1" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_2_5_1_9_1" >
         
           
-          <label class="md-nav__link" for="__nav_4_2_5_1_8_1" id="__nav_4_2_5_1_8_1_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_4_2_5_1_9_1" id="__nav_4_2_5_1_9_1_label" tabindex="0">
             
   
   <span class="md-ellipsis">
@@ -3442,8 +3739,8 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="6" aria-labelledby="__nav_4_2_5_1_8_1_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_4_2_5_1_8_1">
+        <nav class="md-nav" data-md-level="6" aria-labelledby="__nav_4_2_5_1_9_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_2_5_1_9_1">
             <span class="md-nav__icon md-icon"></span>
             Abstractions
           </label>
@@ -3494,10 +3791,10 @@
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_2_5_1_8_2" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_2_5_1_9_2" >
         
           
-          <label class="md-nav__link" for="__nav_4_2_5_1_8_2" id="__nav_4_2_5_1_8_2_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_4_2_5_1_9_2" id="__nav_4_2_5_1_9_2_label" tabindex="0">
             
   
   <span class="md-ellipsis">
@@ -3508,8 +3805,8 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="6" aria-labelledby="__nav_4_2_5_1_8_2_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_4_2_5_1_8_2">
+        <nav class="md-nav" data-md-level="6" aria-labelledby="__nav_4_2_5_1_9_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_2_5_1_9_2">
             <span class="md-nav__icon md-icon"></span>
             Gamepad
           </label>
@@ -3623,10 +3920,10 @@
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_2_5_1_8_3" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_2_5_1_9_3" >
         
           
-          <label class="md-nav__link" for="__nav_4_2_5_1_8_3" id="__nav_4_2_5_1_8_3_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_4_2_5_1_9_3" id="__nav_4_2_5_1_9_3_label" tabindex="0">
             
   
   <span class="md-ellipsis">
@@ -3637,8 +3934,8 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="6" aria-labelledby="__nav_4_2_5_1_8_3_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_4_2_5_1_8_3">
+        <nav class="md-nav" data-md-level="6" aria-labelledby="__nav_4_2_5_1_9_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_2_5_1_9_3">
             <span class="md-nav__icon md-icon"></span>
             Keyboard
           </label>
@@ -3710,10 +4007,10 @@
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_2_5_1_8_4" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_2_5_1_9_4" >
         
           
-          <label class="md-nav__link" for="__nav_4_2_5_1_8_4" id="__nav_4_2_5_1_8_4_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_4_2_5_1_9_4" id="__nav_4_2_5_1_9_4_label" tabindex="0">
             
   
   <span class="md-ellipsis">
@@ -3724,8 +4021,8 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="6" aria-labelledby="__nav_4_2_5_1_8_4_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_4_2_5_1_8_4">
+        <nav class="md-nav" data-md-level="6" aria-labelledby="__nav_4_2_5_1_9_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_2_5_1_9_4">
             <span class="md-nav__icon md-icon"></span>
             Mouse
           </label>
@@ -4847,7 +5144,7 @@
             
   
   <span class="md-ellipsis">
-    Enums
+    DeviceLayout
   </span>
   
 
@@ -4856,6 +5153,324 @@
         
         <nav class="md-nav" data-md-level="5" aria-labelledby="__nav_4_2_7_1_13_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_4_2_7_1_13">
+            <span class="md-nav__icon md-icon"></span>
+            DeviceLayout
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../UI/Runtime/DeviceLayout/DeviceLayoutActions/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    DeviceLayoutActions
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../UI/Runtime/DeviceLayout/DeviceLayoutListView/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    DeviceLayoutListView
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../UI/Runtime/DeviceLayout/DeviceLayoutRowView/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    DeviceLayoutRowView
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../UI/Runtime/DeviceLayout/DeviceLayoutView/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    DeviceLayoutView
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../UI/Runtime/DeviceLayout/DeviceLayoutViewBase/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    DeviceLayoutViewBase
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../UI/Runtime/DeviceLayout/GamepadLayoutView/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    GamepadLayoutView
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../UI/Runtime/DeviceLayout/KeyboardLayoutView/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    KeyboardLayoutView
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../UI/Runtime/DeviceLayout/LayoutSide/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    LayoutSide
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../UI/Runtime/DeviceLayout/LineRouter/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    LineRouter
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../UI/Runtime/DeviceLayout/MouseLayoutView/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    MouseLayoutView
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../UI/Runtime/DeviceLayout/SidesLineRouter/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    SidesLineRouter
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../UI/Runtime/DeviceLayout/UIPolyline/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    UIPolyline
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../UI/Runtime/DeviceLayout/UnderlineLineRouter/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    UnderlineLineRouter
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_2_7_1_14" >
+        
+          
+          <label class="md-nav__link" for="__nav_4_2_7_1_14" id="__nav_4_2_7_1_14_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Enums
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="5" aria-labelledby="__nav_4_2_7_1_14_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_2_7_1_14">
             <span class="md-nav__icon md-icon"></span>
             Enums
           </label>
@@ -5279,6 +5894,27 @@
   
   <span class="md-ellipsis">
     DesktopPlatform
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../Platform/Desktop/DesktopSavesMenu/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    DesktopSavesMenu
   </span>
   
 
@@ -6837,7 +7473,7 @@
             
   
   <span class="md-ellipsis">
-    XBOX
+    Xbox
   </span>
   
 
@@ -6847,7 +7483,7 @@
         <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_4_3_5_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_4_3_5">
             <span class="md-nav__icon md-icon"></span>
-            XBOX
+            Xbox
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -6858,28 +7494,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../../Platform/XBOX/XBOXFileSystem/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    XBOXFileSystem
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../../../../Platform/XBOX/XboxAchievements/" class="md-nav__link">
+      <a href="../../../../../Platform/Xbox/XboxAchievements/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -6900,7 +7515,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../../Platform/XBOX/XboxData/" class="md-nav__link">
+      <a href="../../../../../Platform/Xbox/XboxData/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -6921,7 +7536,28 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../../Platform/XBOX/XboxPlatform/" class="md-nav__link">
+      <a href="../../../../../Platform/Xbox/XboxFileSystem/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    XboxFileSystem
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../Platform/Xbox/XboxPlatform/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -6942,7 +7578,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../../Platform/XBOX/XboxValidator/" class="md-nav__link">
+      <a href="../../../../../Platform/Xbox/XboxValidator/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -7043,6 +7679,66 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#public-static-event-actionint-onplayerjoined" class="md-nav__link">
+    <span class="md-ellipsis">
+      public static event Action&lt;int&gt; OnPlayerJoined
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#public-static-event-actionint-onplayerleft" class="md-nav__link">
+    <span class="md-ellipsis">
+      public static event Action&lt;int&gt; OnPlayerLeft
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#public-static-event-actionint-onplayergamepadlost" class="md-nav__link">
+    <span class="md-ellipsis">
+      public static event Action&lt;int&gt; OnPlayerGamepadLost
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#public-static-event-actionint-onplayergamepadregained" class="md-nav__link">
+    <span class="md-ellipsis">
+      public static event Action&lt;int&gt; OnPlayerGamepadRegained
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#properties" class="md-nav__link">
+    <span class="md-ellipsis">
+      Properties
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Properties">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#public-static-int-maxplayers" class="md-nav__link">
+    <span class="md-ellipsis">
+      public static int MaxPlayers
+    </span>
+  </a>
+  
+</li>
+        
       </ul>
     </nav>
   
@@ -7068,18 +7764,18 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#public-static-void-subscribetstring-action-actiont-callback" class="md-nav__link">
+  <a href="#public-static-void-subscribetstring-action-actiont-callback-int-player-inputplayerfirst" class="md-nav__link">
     <span class="md-ellipsis">
-      public static void Subscribe&lt;T&gt;(string action, Action&lt;T&gt; callback)
+      public static void Subscribe&lt;T&gt;(string action, Action&lt;T&gt; callback, int player = InputPlayer.First)
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#public-static-void-unsubscribetstring-action-actiont-callback" class="md-nav__link">
+  <a href="#public-static-void-unsubscribetstring-action-actiont-callback-int-player-inputplayerfirst" class="md-nav__link">
     <span class="md-ellipsis">
-      public static void Unsubscribe&lt;T&gt;(string action, Action&lt;T&gt; callback)
+      public static void Unsubscribe&lt;T&gt;(string action, Action&lt;T&gt; callback, int player = InputPlayer.First)
     </span>
   </a>
   
@@ -7122,9 +7818,9 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#public-static-void-unbindstring-actionname" class="md-nav__link">
+  <a href="#public-static-void-unbindstring-actionname-int-player-inputplayerfirst" class="md-nav__link">
     <span class="md-ellipsis">
-      public static void Unbind(string actionName)
+      public static void Unbind(string actionName, int player = InputPlayer.First)
     </span>
   </a>
   
@@ -7140,9 +7836,9 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#public-static-actionresultt-gettstring-action" class="md-nav__link">
+  <a href="#public-static-actionresultt-gettstring-action-int-player-inputplayerfirst" class="md-nav__link">
     <span class="md-ellipsis">
-      public static ActionResult&lt;T&gt; Get&lt;T&gt;(string action)
+      public static ActionResult&lt;T&gt; Get&lt;T&gt;(string action, int player = InputPlayer.First)
     </span>
   </a>
   
@@ -7179,6 +7875,51 @@
   <a href="#public-static-void-stopgamepadvibrationint-player-0" class="md-nav__link">
     <span class="md-ellipsis">
       public static void StopGamepadVibration(int player = 0)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#public-static-ireadonlylistint-getactiveplayers" class="md-nav__link">
+    <span class="md-ellipsis">
+      public static IReadOnlyList&lt;int&gt; GetActivePlayers()
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#public-static-bool-isplayeractiveint-player" class="md-nav__link">
+    <span class="md-ellipsis">
+      public static bool IsPlayerActive(int player)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#public-static-bool-iswaitingforgamepadint-player" class="md-nav__link">
+    <span class="md-ellipsis">
+      public static bool IsWaitingForGamepad(int player)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#public-static-ireadonlylistint-getplayerswaitingforgamepad" class="md-nav__link">
+    <span class="md-ellipsis">
+      public static IReadOnlyList&lt;int&gt; GetPlayersWaitingForGamepad()
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#public-static-bool-removeplayerint-player" class="md-nav__link">
+    <span class="md-ellipsis">
+      public static bool RemovePlayer(int player)
     </span>
   </a>
   
@@ -7244,17 +7985,28 @@
 <p>Source: <code>Assets/UpscaleSDK/Core/Input/Runtime/Core/UPSInput.cs</code></p>
 </blockquote>
 <h2 id="class-upsinput"><code>class UPSInput</code><a class="headerlink" href="#class-upsinput" title="Permanent link">&para;</a></h2>
-<p>Represents a ups input class.</p>
+<p>Central static-access entry point for the input module. Owns the active <a href="../../Provider/Abstractions/IInputProvider/"><code>IInputProvider</code></a> and <a href="../../Glyphs/Abstractions/IGlyphProvider/"><code>IGlyphProvider</code></a>, drives the binding registry every frame, and exposes the binding, subscription and glyph/vibration APIs used by gameplay code. A single instance is created per scene and initialized via <code>Initialize</code> before any other member is used.</p>
 <h3 id="events">Events<a class="headerlink" href="#events" title="Permanent link">&para;</a></h3>
 <h4 id="public-static-event-actiondevicetype-ondeviceadded"><code>public static event Action&lt;<a href="../Enums/DeviceType/">DeviceType</a>&gt; OnDeviceAdded</code><a class="headerlink" href="#public-static-event-actiondevicetype-ondeviceadded" title="Permanent link">&para;</a></h4>
-<p>Occurs when device added.</p>
+<p>Raised whenever a new input device (keyboard, mouse or gamepad) is connected.</p>
 <h4 id="public-static-event-actiondevicetype-ondeviceremoved"><code>public static event Action&lt;<a href="../Enums/DeviceType/">DeviceType</a>&gt; OnDeviceRemoved</code><a class="headerlink" href="#public-static-event-actiondevicetype-ondeviceremoved" title="Permanent link">&para;</a></h4>
-<p>Occurs when device removed.</p>
+<p>Raised whenever a previously connected input device is disconnected.</p>
+<h4 id="public-static-event-actionint-onplayerjoined"><code>public static event Action&lt;int&gt; OnPlayerJoined</code><a class="headerlink" href="#public-static-event-actionint-onplayerjoined" title="Permanent link">&para;</a></h4>
+<p>Raised when a new player joins with a gamepad (multiplayer only).</p>
+<h4 id="public-static-event-actionint-onplayerleft"><code>public static event Action&lt;int&gt; OnPlayerLeft</code><a class="headerlink" href="#public-static-event-actionint-onplayerleft" title="Permanent link">&para;</a></h4>
+<p>Raised when a player is removed (multiplayer only).</p>
+<h4 id="public-static-event-actionint-onplayergamepadlost"><code>public static event Action&lt;int&gt; OnPlayerGamepadLost</code><a class="headerlink" href="#public-static-event-actionint-onplayergamepadlost" title="Permanent link">&para;</a></h4>
+<p>Raised when a player's gamepad disconnects and the player starts waiting for a gamepad (multiplayer only). Other players keep playing.</p>
+<h4 id="public-static-event-actionint-onplayergamepadregained"><code>public static event Action&lt;int&gt; OnPlayerGamepadRegained</code><a class="headerlink" href="#public-static-event-actionint-onplayergamepadregained" title="Permanent link">&para;</a></h4>
+<p>Raised when a waiting player has a gamepad again (multiplayer only).</p>
+<h3 id="properties">Properties<a class="headerlink" href="#properties" title="Permanent link">&para;</a></h3>
+<h4 id="public-static-int-maxplayers"><code>public static int MaxPlayers</code><a class="headerlink" href="#public-static-int-maxplayers" title="Permanent link">&para;</a></h4>
+<p>Gets the number of local players the game allows at once (SDK configuration). 1 means single player: any gamepad drives player 0.</p>
 <h3 id="methods">Methods<a class="headerlink" href="#methods" title="Permanent link">&para;</a></h3>
 <h4 id="public-void-initialize"><code>public void Initialize()</code><a class="headerlink" href="#public-void-initialize" title="Permanent link">&para;</a></h4>
-<p>Initialize.</p>
-<h4 id="public-static-void-subscribetstring-action-actiont-callback"><code>public static void Subscribe&lt;T&gt;(string action, Action&lt;T&gt; callback)</code><a class="headerlink" href="#public-static-void-subscribetstring-action-actiont-callback" title="Permanent link">&para;</a></h4>
-<p>Subscribe.</p>
+<p>Initializes the input module: creates the binding registry, resolves the active input and glyph providers for the current platform, and starts listening for device connect/disconnect events. Must be called once before binding actions or querying input.</p>
+<h4 id="public-static-void-subscribetstring-action-actiont-callback-int-player-inputplayerfirst"><code>public static void Subscribe&lt;T&gt;(string action, Action&lt;T&gt; callback, int player = <a href="../../Players/InputPlayer/">InputPlayer</a>.First)</code><a class="headerlink" href="#public-static-void-subscribetstring-action-actiont-callback-int-player-inputplayerfirst" title="Permanent link">&para;</a></h4>
+<p>Subscribes a callback to a bound action, invoked every time the action is performed. The action must already be bound (e.g. via <code>BindAsBool</code>) before subscribing.</p>
 <p><strong>Parameters</strong></p>
 <table>
 <thead>
@@ -7266,16 +8018,20 @@
 <tbody>
 <tr>
 <td><code>action</code></td>
-<td>The action.</td>
+<td>The bound action's name.</td>
 </tr>
 <tr>
 <td><code>callback</code></td>
-<td>The callback.</td>
+<td>The callback to invoke with the action's value.</td>
+</tr>
+<tr>
+<td><code>player</code></td>
+<td>The player the action is bound to.</td>
 </tr>
 </tbody>
 </table>
-<h4 id="public-static-void-unsubscribetstring-action-actiont-callback"><code>public static void Unsubscribe&lt;T&gt;(string action, Action&lt;T&gt; callback)</code><a class="headerlink" href="#public-static-void-unsubscribetstring-action-actiont-callback" title="Permanent link">&para;</a></h4>
-<p>Unsubscribe.</p>
+<h4 id="public-static-void-unsubscribetstring-action-actiont-callback-int-player-inputplayerfirst"><code>public static void Unsubscribe&lt;T&gt;(string action, Action&lt;T&gt; callback, int player = <a href="../../Players/InputPlayer/">InputPlayer</a>.First)</code><a class="headerlink" href="#public-static-void-unsubscribetstring-action-actiont-callback-int-player-inputplayerfirst" title="Permanent link">&para;</a></h4>
+<p>Removes a previously subscribed callback from a bound action. No-op if the action isn't bound or the callback wasn't subscribed.</p>
 <p><strong>Parameters</strong></p>
 <table>
 <thead>
@@ -7287,16 +8043,20 @@
 <tbody>
 <tr>
 <td><code>action</code></td>
-<td>The action.</td>
+<td>The bound action's name.</td>
 </tr>
 <tr>
 <td><code>callback</code></td>
-<td>The callback.</td>
+<td>The callback to remove.</td>
+</tr>
+<tr>
+<td><code>player</code></td>
+<td>The player the action is bound to.</td>
 </tr>
 </tbody>
 </table>
 <h4 id="public-static-bindingbuilderbool-bindasboolstring-action"><code>public static <a href="../../Binding/Builders/BindingBuilder/">BindingBuilder</a>&lt;bool&gt; BindAsBool(string action)</code><a class="headerlink" href="#public-static-bindingbuilderbool-bindasboolstring-action" title="Permanent link">&para;</a></h4>
-<p>Bind as bool.</p>
+<p>Starts building a boolean binding (e.g. buttons, keys) registered under the given action name. Use the returned builder to configure sources and finish the binding.</p>
 <p><strong>Parameters</strong></p>
 <table>
 <thead>
@@ -7308,12 +8068,12 @@
 <tbody>
 <tr>
 <td><code>action</code></td>
-<td>The action.</td>
+<td>The name to register the action under.</td>
 </tr>
 </tbody>
 </table>
 <h4 id="public-static-bindingbuildervector2-bindasvector2string-action"><code>public static <a href="../../Binding/Builders/BindingBuilder/">BindingBuilder</a>&lt;Vector2&gt; BindAsVector2(string action)</code><a class="headerlink" href="#public-static-bindingbuildervector2-bindasvector2string-action" title="Permanent link">&para;</a></h4>
-<p>Bind as vector2.</p>
+<p>Starts building a Vector2 binding (e.g. movement or look input) registered under the given action name. Use the returned builder to configure sources and finish the binding.</p>
 <p><strong>Parameters</strong></p>
 <table>
 <thead>
@@ -7325,12 +8085,12 @@
 <tbody>
 <tr>
 <td><code>action</code></td>
-<td>The action.</td>
+<td>The name to register the action under.</td>
 </tr>
 </tbody>
 </table>
 <h4 id="public-static-bindingbuilderfloat-bindasfloatstring-action"><code>public static <a href="../../Binding/Builders/BindingBuilder/">BindingBuilder</a>&lt;float&gt; BindAsFloat(string action)</code><a class="headerlink" href="#public-static-bindingbuilderfloat-bindasfloatstring-action" title="Permanent link">&para;</a></h4>
-<p>Bind as float.</p>
+<p>Starts building a float binding (e.g. analog triggers) registered under the given action name. Use the returned builder to configure sources and finish the binding.</p>
 <p><strong>Parameters</strong></p>
 <table>
 <thead>
@@ -7342,12 +8102,12 @@
 <tbody>
 <tr>
 <td><code>action</code></td>
-<td>The action.</td>
+<td>The name to register the action under.</td>
 </tr>
 </tbody>
 </table>
 <h4 id="public-static-void-setactionstatestring-actionname-bool-active-int-player-0"><code>public static void SetActionState(string actionName, bool active, int player = 0)</code><a class="headerlink" href="#public-static-void-setactionstatestring-actionname-bool-active-int-player-0" title="Permanent link">&para;</a></h4>
-<p>Sets the action state.</p>
+<p>Enables or disables a bound action for the given player, controlling whether it keeps processing input and invoking its subscribers.</p>
 <p><strong>Parameters</strong></p>
 <table>
 <thead>
@@ -7359,20 +8119,20 @@
 <tbody>
 <tr>
 <td><code>actionName</code></td>
-<td>The action name.</td>
+<td>The bound action's name.</td>
 </tr>
 <tr>
 <td><code>active</code></td>
-<td>The active.</td>
+<td>Whether the action should be active.</td>
 </tr>
 <tr>
 <td><code>player</code></td>
-<td>The player.</td>
+<td>The player index the action is bound to.</td>
 </tr>
 </tbody>
 </table>
-<h4 id="public-static-void-unbindstring-actionname"><code>public static void Unbind(string actionName)</code><a class="headerlink" href="#public-static-void-unbindstring-actionname" title="Permanent link">&para;</a></h4>
-<p>Unbind.</p>
+<h4 id="public-static-void-unbindstring-actionname-int-player-inputplayerfirst"><code>public static void Unbind(string actionName, int player = <a href="../../Players/InputPlayer/">InputPlayer</a>.First)</code><a class="headerlink" href="#public-static-void-unbindstring-actionname-int-player-inputplayerfirst" title="Permanent link">&para;</a></h4>
+<p>Removes an existing action binding, stopping it from receiving input and notifying its subscribers.</p>
 <p><strong>Parameters</strong></p>
 <table>
 <thead>
@@ -7384,14 +8144,18 @@
 <tbody>
 <tr>
 <td><code>actionName</code></td>
-<td>The action name.</td>
+<td>The bound action's name.</td>
+</tr>
+<tr>
+<td><code>player</code></td>
+<td>The player the action is bound to.</td>
 </tr>
 </tbody>
 </table>
 <h4 id="public-static-iglyphprovider-trygetglyphprovider"><code>public static <a href="../../Glyphs/Abstractions/IGlyphProvider/">IGlyphProvider</a> TryGetGlyphProvider()</code><a class="headerlink" href="#public-static-iglyphprovider-trygetglyphprovider" title="Permanent link">&para;</a></h4>
-<p>Attempts to get glyph provider.</p>
-<h4 id="public-static-actionresultt-gettstring-action"><code>public static <a href="../ActionResult/">ActionResult</a>&lt;T&gt; Get&lt;T&gt;(string action)</code><a class="headerlink" href="#public-static-actionresultt-gettstring-action" title="Permanent link">&para;</a></h4>
-<p>Get.</p>
+<p>Gets the active glyph provider, creating a standalone one on demand when the input module hasn't been initialized yet (e.g. edit-mode previews).</p>
+<h4 id="public-static-actionresultt-gettstring-action-int-player-inputplayerfirst"><code>public static <a href="../ActionResult/">ActionResult</a>&lt;T&gt; Get&lt;T&gt;(string action, int player = <a href="../../Players/InputPlayer/">InputPlayer</a>.First)</code><a class="headerlink" href="#public-static-actionresultt-gettstring-action-int-player-inputplayerfirst" title="Permanent link">&para;</a></h4>
+<p>Gets a wrapper around a bound action's current value/state, looked up by name.</p>
 <p><strong>Parameters</strong></p>
 <table>
 <thead>
@@ -7403,12 +8167,16 @@
 <tbody>
 <tr>
 <td><code>action</code></td>
-<td>The action.</td>
+<td>The bound action's name.</td>
+</tr>
+<tr>
+<td><code>player</code></td>
+<td>The player the action is bound to.</td>
 </tr>
 </tbody>
 </table>
 <h4 id="public-static-actionresultt-gettinputactiont-action"><code>public static <a href="../ActionResult/">ActionResult</a>&lt;T&gt; Get&lt;T&gt;(<a href="../InputAction/">InputAction</a>&lt;T&gt; action)</code><a class="headerlink" href="#public-static-actionresultt-gettinputactiont-action" title="Permanent link">&para;</a></h4>
-<p>Get.</p>
+<p>Wraps an already-resolved <code>InputAction{T}</code> for convenient value/state access, without a registry lookup.</p>
 <p><strong>Parameters</strong></p>
 <table>
 <thead>
@@ -7420,12 +8188,12 @@
 <tbody>
 <tr>
 <td><code>action</code></td>
-<td>The action.</td>
+<td>The input action to wrap.</td>
 </tr>
 </tbody>
 </table>
 <h4 id="public-static-gamepadtype-getgamepadtypeint-player-0"><code>public static <a href="../Enums/GamepadType/">GamepadType</a> GetGamepadType(int player = 0)</code><a class="headerlink" href="#public-static-gamepadtype-getgamepadtypeint-player-0" title="Permanent link">&para;</a></h4>
-<p>Gets the gamepad type.</p>
+<p>Gets the gamepad layout/type connected for the given player. In the editor, defaults to <code>GamepadType.SwitchPro</code> when the input module hasn't been initialized yet.</p>
 <p><strong>Parameters</strong></p>
 <table>
 <thead>
@@ -7437,12 +8205,12 @@
 <tbody>
 <tr>
 <td><code>player</code></td>
-<td>The player.</td>
+<td>The player index to query.</td>
 </tr>
 </tbody>
 </table>
 <h4 id="public-static-void-setgamepadvibrationfloat-low-float-high-int-player-0"><code>public static void SetGamepadVibration(float low, float high, int player = 0)</code><a class="headerlink" href="#public-static-void-setgamepadvibrationfloat-low-float-high-int-player-0" title="Permanent link">&para;</a></h4>
-<p>Sets the gamepad vibration.</p>
+<p>Sets the given player's gamepad rumble motor intensities.</p>
 <p><strong>Parameters</strong></p>
 <table>
 <thead>
@@ -7454,20 +8222,20 @@
 <tbody>
 <tr>
 <td><code>low</code></td>
-<td>The low.</td>
+<td>Low-frequency (heavy) motor intensity, from 0 to 1.</td>
 </tr>
 <tr>
 <td><code>high</code></td>
-<td>The high.</td>
+<td>High-frequency (light) motor intensity, from 0 to 1.</td>
 </tr>
 <tr>
 <td><code>player</code></td>
-<td>The player.</td>
+<td>The player index whose gamepad should vibrate; <code>InputPlayer.Any</code> for everyone.</td>
 </tr>
 </tbody>
 </table>
 <h4 id="public-static-void-stopgamepadvibrationint-player-0"><code>public static void StopGamepadVibration(int player = 0)</code><a class="headerlink" href="#public-static-void-stopgamepadvibrationint-player-0" title="Permanent link">&para;</a></h4>
-<p>Stop gamepad vibration.</p>
+<p>Stops gamepad vibration for the given player.</p>
 <p><strong>Parameters</strong></p>
 <table>
 <thead>
@@ -7479,16 +8247,72 @@
 <tbody>
 <tr>
 <td><code>player</code></td>
-<td>The player.</td>
+<td>The player index whose gamepad should stop vibrating; <code>InputPlayer.Any</code> for everyone.</td>
 </tr>
 </tbody>
 </table>
+<h4 id="public-static-ireadonlylistint-getactiveplayers"><code>public static IReadOnlyList&lt;int&gt; GetActivePlayers()</code><a class="headerlink" href="#public-static-ireadonlylistint-getactiveplayers" title="Permanent link">&para;</a></h4>
+<p>Gets the active player indices, in ascending order. Player 0 is always active. The list is reused: copy it to keep it.</p>
+<h4 id="public-static-bool-isplayeractiveint-player"><code>public static bool IsPlayerActive(int player)</code><a class="headerlink" href="#public-static-bool-isplayeractiveint-player" title="Permanent link">&para;</a></h4>
+<p>Gets whether the player index is in play.</p>
+<p><strong>Parameters</strong></p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>player</code></td>
+<td>The player index.</td>
+</tr>
+</tbody>
+</table>
+<h4 id="public-static-bool-iswaitingforgamepadint-player"><code>public static bool IsWaitingForGamepad(int player)</code><a class="headerlink" href="#public-static-bool-iswaitingforgamepadint-player" title="Permanent link">&para;</a></h4>
+<p>Gets whether the player's gamepad is disconnected and it waits for one.</p>
+<p><strong>Parameters</strong></p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>player</code></td>
+<td>The player index.</td>
+</tr>
+</tbody>
+</table>
+<h4 id="public-static-ireadonlylistint-getplayerswaitingforgamepad"><code>public static IReadOnlyList&lt;int&gt; GetPlayersWaitingForGamepad()</code><a class="headerlink" href="#public-static-ireadonlylistint-getplayerswaitingforgamepad" title="Permanent link">&para;</a></h4>
+<p>Gets the players whose gamepad is disconnected, longest-waiting first. The list is reused: copy it to keep it.</p>
+<h4 id="public-static-bool-removeplayerint-player"><code>public static bool RemovePlayer(int player)</code><a class="headerlink" href="#public-static-bool-removeplayerint-player" title="Permanent link">&para;</a></h4>
+<p>Removes a player and frees its gamepad. Player 0 is never removed. The player's bindings stay registered; dispose its action sets if they are no longer needed.</p>
+<p><strong>Parameters</strong></p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>player</code></td>
+<td>The player index.</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Returns:</strong> False when there is no such player or it is player 0.</p>
 <h4 id="public-static-devicetype-getconnecteddevices"><code>public static <a href="../Enums/DeviceType/">DeviceType</a>[] GetConnectedDevices()</code><a class="headerlink" href="#public-static-devicetype-getconnecteddevices" title="Permanent link">&para;</a></h4>
-<p>Gets the connected devices.</p>
+<p>Gets the connected devices. Returns an empty array when UPSInput hasn't been initialized yet, so callers on early execution order (or edit-mode previews) don't NRE.</p>
 <h4 id="public-static-devicetype-getprimarydevice"><code>public static <a href="../Enums/DeviceType/">DeviceType</a> GetPrimaryDevice()</code><a class="headerlink" href="#public-static-devicetype-getprimarydevice" title="Permanent link">&para;</a></h4>
 <p>Gets the primary device to render glyphs for. Gamepad wins whenever connected, and is forced on console platforms. Falls back to Keyboard, then Mouse.</p>
 <h4 id="public-static-sprite-trygetglyphgamepadglyph-glyph"><code>public static Sprite TryGetGlyph(<a href="../../Glyphs/Enums/GamepadGlyph/">GamepadGlyph</a> glyph)</code><a class="headerlink" href="#public-static-sprite-trygetglyphgamepadglyph-glyph" title="Permanent link">&para;</a></h4>
-<p>Attempts to get glyph.</p>
+<p>Resolves the sprite representing the given gamepad glyph using the active glyph provider.</p>
 <p><strong>Parameters</strong></p>
 <table>
 <thead>
@@ -7500,7 +8324,7 @@
 <tbody>
 <tr>
 <td><code>glyph</code></td>
-<td>The glyph.</td>
+<td>The gamepad glyph to look up.</td>
 </tr>
 </tbody>
 </table>
@@ -7524,7 +8348,7 @@
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago" title="July 20, 2026 15:28:45 UTC"><span class="timeago" datetime="2026-07-20T15:28:45+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date" title="July 20, 2026 15:28:45 UTC">2026-07-20</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago" title="October 26, 2026 18:56:27 UTC"><span class="timeago" datetime="2026-10-26T18:56:27+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date" title="October 26, 2026 18:56:27 UTC">2026-10-26</span>
   </span>
 
     
