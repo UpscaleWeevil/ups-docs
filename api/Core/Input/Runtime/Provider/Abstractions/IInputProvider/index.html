@@ -13,10 +13,10 @@
         <link rel="canonical" href="https://upscaleweevil.github.io/ups-docs/api/Core/Input/Runtime/Provider/Abstractions/IInputProvider/">
       
       
-        <link rel="prev" href="../IInputPlayers/">
+        <link rel="prev" href="../../GamepadSupport/">
       
       
-        <link rel="next" href="../../NewInputSystem/GamepadPlayers/">
+        <link rel="next" href="../../NewInputSystem/FollowActiveGamepad/">
       
       
       <link rel="icon" href="../../../../../../../assets/images/favicon.png">
@@ -2768,6 +2768,48 @@
   
   
     <li class="md-nav__item">
+      <a href="../../../Players/GamepadPressResult/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    GamepadPressResult
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Players/IGamepadAssignment/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    IGamepadAssignment
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../../../Players/InputPlayer/" class="md-nav__link">
         
   
@@ -2794,6 +2836,27 @@
   
   <span class="md-ellipsis">
     InputPlayersSettings
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Players/LocalPlayers/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    LocalPlayers
   </span>
   
 
@@ -3112,6 +3175,27 @@
                 
   
   
+  
+  
+    <li class="md-nav__item">
+      <a href="../../GamepadSupport/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    GamepadSupport
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
     
   
   
@@ -3126,10 +3210,10 @@
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_2_5_1_8_1" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_2_5_1_8_2" checked>
         
           
-          <label class="md-nav__link" for="__nav_4_2_5_1_8_1" id="__nav_4_2_5_1_8_1_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_4_2_5_1_8_2" id="__nav_4_2_5_1_8_2_label" tabindex="0">
             
   
   <span class="md-ellipsis">
@@ -3140,33 +3224,12 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="6" aria-labelledby="__nav_4_2_5_1_8_1_label" aria-expanded="true">
-          <label class="md-nav__title" for="__nav_4_2_5_1_8_1">
+        <nav class="md-nav" data-md-level="6" aria-labelledby="__nav_4_2_5_1_8_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_4_2_5_1_8_2">
             <span class="md-nav__icon md-icon"></span>
             Abstractions
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../IInputPlayers/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    IInputPlayers
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
             
               
                 
@@ -3258,25 +3321,19 @@
   
 </li>
         
-      </ul>
-    </nav>
+          <li class="md-nav__item">
+  <a href="#public-event-actionint-ongamepadconnected" class="md-nav__link">
+    <span class="md-ellipsis">
+      public event Action&lt;int&gt; OnGamepadConnected
+    </span>
+  </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#properties" class="md-nav__link">
+  <a href="#public-event-actionint-ongamepaddisconnected" class="md-nav__link">
     <span class="md-ellipsis">
-      Properties
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Properties">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#iinputplayers-players" class="md-nav__link">
-    <span class="md-ellipsis">
-      IInputPlayers Players
+      public event Action&lt;int&gt; OnGamepadDisconnected
     </span>
   </a>
   
@@ -3301,6 +3358,33 @@
   <a href="#void-initialize" class="md-nav__link">
     <span class="md-ellipsis">
       void Initialize()
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#void-beginframe" class="md-nav__link">
+    <span class="md-ellipsis">
+      void BeginFrame()
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#void-collectpressedgamepadslistint-gamepadids" class="md-nav__link">
+    <span class="md-ellipsis">
+      void CollectPressedGamepads(List&lt;int&gt; gamepadIds)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#void-swallowuntilreleasedint-gamepadid" class="md-nav__link">
+    <span class="md-ellipsis">
+      void SwallowUntilReleased(int gamepadId)
     </span>
   </a>
   
@@ -3502,10 +3586,10 @@
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_2_5_1_8_2" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_2_5_1_8_3" >
         
           
-          <label class="md-nav__link" for="__nav_4_2_5_1_8_2" id="__nav_4_2_5_1_8_2_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_4_2_5_1_8_3" id="__nav_4_2_5_1_8_3_label" tabindex="0">
             
   
   <span class="md-ellipsis">
@@ -3516,8 +3600,8 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="6" aria-labelledby="__nav_4_2_5_1_8_2_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_4_2_5_1_8_2">
+        <nav class="md-nav" data-md-level="6" aria-labelledby="__nav_4_2_5_1_8_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_2_5_1_8_3">
             <span class="md-nav__icon md-icon"></span>
             NewInputSystem
           </label>
@@ -3530,32 +3614,11 @@
   
   
     <li class="md-nav__item">
-      <a href="../../NewInputSystem/GamepadPlayers/" class="md-nav__link">
+      <a href="../../NewInputSystem/FollowActiveGamepad/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    GamepadPlayers
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../NewInputSystem/GamepadTypeDetector/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    GamepadTypeDetector
+    FollowActiveGamepad
   </span>
   
 
@@ -6093,6 +6156,27 @@
   
   
     <li class="md-nav__item">
+      <a href="../../../../../../Platform/PS4/Common/PS4GamepadSupport/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    PS4GamepadSupport
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../../../../../../Platform/PS4/Common/PS4Platform/" class="md-nav__link">
         
   
@@ -6665,6 +6749,27 @@
   
   <span class="md-ellipsis">
     MainThreadDispatcher
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../../Platform/PS5/Common/PS5GamepadSupport/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    PS5GamepadSupport
   </span>
   
 
@@ -7337,6 +7442,27 @@
   
   
     <li class="md-nav__item">
+      <a href="../../../../../../Platform/Switch/SwitchGamepadSupport/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    SwitchGamepadSupport
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../../../../../../Platform/Switch/SwitchPlatform/" class="md-nav__link">
         
   
@@ -7487,6 +7613,27 @@
   
   
     <li class="md-nav__item">
+      <a href="../../../../../../Platform/Xbox/XboxGamepadSupport/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    XboxGamepadSupport
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../../../../../../Platform/Xbox/XboxPlatform/" class="md-nav__link">
         
   
@@ -7609,25 +7756,19 @@
   
 </li>
         
-      </ul>
-    </nav>
+          <li class="md-nav__item">
+  <a href="#public-event-actionint-ongamepadconnected" class="md-nav__link">
+    <span class="md-ellipsis">
+      public event Action&lt;int&gt; OnGamepadConnected
+    </span>
+  </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#properties" class="md-nav__link">
+  <a href="#public-event-actionint-ongamepaddisconnected" class="md-nav__link">
     <span class="md-ellipsis">
-      Properties
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Properties">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#iinputplayers-players" class="md-nav__link">
-    <span class="md-ellipsis">
-      IInputPlayers Players
+      public event Action&lt;int&gt; OnGamepadDisconnected
     </span>
   </a>
   
@@ -7652,6 +7793,33 @@
   <a href="#void-initialize" class="md-nav__link">
     <span class="md-ellipsis">
       void Initialize()
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#void-beginframe" class="md-nav__link">
+    <span class="md-ellipsis">
+      void BeginFrame()
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#void-collectpressedgamepadslistint-gamepadids" class="md-nav__link">
+    <span class="md-ellipsis">
+      void CollectPressedGamepads(List&lt;int&gt; gamepadIds)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#void-swallowuntilreleasedint-gamepadid" class="md-nav__link">
+    <span class="md-ellipsis">
+      void SwallowUntilReleased(int gamepadId)
     </span>
   </a>
   
@@ -7849,11 +8017,18 @@
 <p>Occurs when device added.</p>
 <h4 id="public-event-actiondevicetype-ondeviceremoved"><code>public event Action&lt;<a href="../../../Core/Enums/DeviceType/">DeviceType</a>&gt; OnDeviceRemoved</code><a class="headerlink" href="#public-event-actiondevicetype-ondeviceremoved" title="Permanent link">&para;</a></h4>
 <p>Occurs when device removed.</p>
-<h3 id="properties">Properties<a class="headerlink" href="#properties" title="Permanent link">&para;</a></h3>
-<h4 id="iinputplayers-players"><code><a href="../IInputPlayers/">IInputPlayers</a> Players</code><a class="headerlink" href="#iinputplayers-players" title="Permanent link">&para;</a></h4>
-<p>Gets the local players and which gamepad drives each of them.</p>
+<h4 id="public-event-actionint-ongamepadconnected"><code>public event Action&lt;int&gt; OnGamepadConnected</code><a class="headerlink" href="#public-event-actionint-ongamepadconnected" title="Permanent link">&para;</a></h4>
+<p>Occurs when a gamepad connects or reconnects, with its device id.</p>
+<h4 id="public-event-actionint-ongamepaddisconnected"><code>public event Action&lt;int&gt; OnGamepadDisconnected</code><a class="headerlink" href="#public-event-actionint-ongamepaddisconnected" title="Permanent link">&para;</a></h4>
+<p>Occurs when a gamepad disconnects, with its device id.</p>
 <h3 id="methods">Methods<a class="headerlink" href="#methods" title="Permanent link">&para;</a></h3>
 <h4 id="void-initialize"><code>void Initialize()</code><a class="headerlink" href="#void-initialize" title="Permanent link">&para;</a></h4>
+<h4 id="void-beginframe"><code>void BeginFrame()</code><a class="headerlink" href="#void-beginframe" title="Permanent link">&para;</a></h4>
+<p>Called once per frame before anything is read.</p>
+<h4 id="void-collectpressedgamepadslistint-gamepadids"><code>void CollectPressedGamepads(List&lt;int&gt; gamepadIds)</code><a class="headerlink" href="#void-collectpressedgamepadslistint-gamepadids" title="Permanent link">&para;</a></h4>
+<p>Collects the device ids of the gamepads with a button pressed this frame.</p>
+<h4 id="void-swallowuntilreleasedint-gamepadid"><code>void SwallowUntilReleased(int gamepadId)</code><a class="headerlink" href="#void-swallowuntilreleasedint-gamepadid" title="Permanent link">&para;</a></h4>
+<p>Ignores the gamepad's input until all its buttons are released, so a press that only joined a player never reaches a binding.</p>
 <h4 id="bool-readgamepadbuttonint-player-gamepadbutton-button"><code>bool ReadGamepadButton(int player, <a href="../../../Core/Enums/GamepadButton/">GamepadButton</a> button)</code><a class="headerlink" href="#bool-readgamepadbuttonint-player-gamepadbutton-button" title="Permanent link">&para;</a></h4>
 <h4 id="bool-readgamepadbuttondownint-player-gamepadbutton-button"><code>bool ReadGamepadButtonDown(int player, <a href="../../../Core/Enums/GamepadButton/">GamepadButton</a> button)</code><a class="headerlink" href="#bool-readgamepadbuttondownint-player-gamepadbutton-button" title="Permanent link">&para;</a></h4>
 <h4 id="bool-readgamepadbuttonupint-player-gamepadbutton-button"><code>bool ReadGamepadButtonUp(int player, <a href="../../../Core/Enums/GamepadButton/">GamepadButton</a> button)</code><a class="headerlink" href="#bool-readgamepadbuttonupint-player-gamepadbutton-button" title="Permanent link">&para;</a></h4>
@@ -7891,7 +8066,7 @@
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago" title="October 26, 2026 18:58:16 UTC"><span class="timeago" datetime="2026-10-26T18:58:16+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date" title="October 26, 2026 18:58:16 UTC">2026-10-26</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago" title="October 28, 2026 20:08:48 UTC"><span class="timeago" datetime="2026-10-28T20:08:48+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date" title="October 28, 2026 20:08:48 UTC">2026-10-28</span>
   </span>
 
     
